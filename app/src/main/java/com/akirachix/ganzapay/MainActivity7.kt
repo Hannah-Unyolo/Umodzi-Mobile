@@ -6,23 +6,25 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.akirachix.ganzapay.databinding.ActivityMain5Binding
+import com.akirachix.ganzapay.databinding.ActivityMain7Binding
 
-class MainActivity5 : AppCompatActivity() {
-    lateinit var binding: ActivityMain5Binding
+class MainActivity7 : AppCompatActivity() {
+    lateinit var binding: ActivityMain7Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding =ActivityMain5Binding.inflate(layoutInflater)
+        binding = ActivityMain7Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.ivBack.setOnClickListener {
-            finish()
-        }
 
-        binding.imageView15.setOnClickListener {
+        binding.ivMenu.setOnClickListener {
             val intent =Intent(this,MainActivity6::class.java)
             startActivity(intent)
         }
+        binding.imageView29.setOnClickListener {
+            val intent =Intent(this,MainActivity8::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

@@ -64,4 +64,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
         app:srcCompat="@drawable/fingerprint_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="52dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/left_arrow_svgrepo_com" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,13 +52,13 @@
         android:layout_marginEnd="153dp"
         android:layout_marginBottom="60dp"
         android:text="Fingerprint or Pin?"
-        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintBottom_toTopOf="@+id/ivFingerp1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/ivFingerp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
@@ -80,13 +80,13 @@
         android:layout_marginTop="88dp"
         android:layout_marginBottom="212dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintStart_toEndOf="@+id/ivFingerp1"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/question_mark" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/ivNumbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="71dp"
@@ -98,5 +98,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView25"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/input_numbers" />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/left_arrow_svgrepo_com" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
