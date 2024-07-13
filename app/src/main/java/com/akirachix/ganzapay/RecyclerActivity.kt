@@ -27,9 +27,9 @@ class MainActivity13 : AppCompatActivity() {
     }
 
     fun displayTransactions(){
-        val transaction1 = Transaction("Mutarama","","","RWF 50000")
-        val transaction2 = Transaction("Mutarama","","","RWF 50000")
-        val transaction3 = Transaction("Mutarama","","","RWF 50000")
+        val transaction1 = Transaction("MUTARAMA","RWF 70000")
+        val transaction2 = Transaction("MUTARAMA","RWF 70000")
+        val transaction3 = Transaction("MUTARAMA","RWF 70000")
 
 
         val transactionsList = listOf(transaction1,transaction2,transaction3)

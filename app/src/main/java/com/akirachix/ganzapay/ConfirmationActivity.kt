@@ -13,7 +13,7 @@ class MainActivity9 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.ivMenu.setOnClickListener {
-            val intent = Intent(this,MainActivity6::class.java)
+            val intent = Intent(this,MainActivity13::class.java)
             startActivity(intent)
         }
 

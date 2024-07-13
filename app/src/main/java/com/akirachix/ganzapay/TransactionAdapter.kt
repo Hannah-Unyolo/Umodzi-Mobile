@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.view.menu.MenuView.ItemView
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
 
 class TransactionAdapter (val transactionList: List<Transaction>): RecyclerView.Adapter<TransactionViewHolder> (){
@@ -20,8 +21,6 @@ class TransactionAdapter (val transactionList: List<Transaction>): RecyclerView.
     override fun onBindViewHolder(holder: TransactionViewHolder, position: Int) {
         var transaction = transactionList[position]
         holder.tvMonth.text = transaction.month
-        holder.tvMoney.text = transaction.money
-        holder.tvArrow.text = transaction.arrow
         holder.tvAmount.text = transaction.amount
     }
 }
@@ -29,7 +28,5 @@ class TransactionAdapter (val transactionList: List<Transaction>): RecyclerView.
 
 class TransactionViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
     var tvMonth = itemView.findViewById<TextView>(R.id.tvMonth)
-    var tvMoney = itemView.findViewById<TextView>(R.id.tvMoney)
-    var tvArrow = itemView.findViewById<TextView>(R.id.tvArrow)
     var tvAmount = itemView.findViewById<TextView>(R.id.tvAmount)
 }

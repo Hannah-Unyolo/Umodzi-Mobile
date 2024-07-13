@@ -27,7 +27,7 @@ class MainActivity6 : AppCompatActivity() {
         }
 
         binding.ivBalance.setOnClickListener {
-            val intent = Intent(this,MainActivity13::class.java)
+            val intent = Intent(this,MainActivity12::class.java)
             startActivity(intent)
         }
 
