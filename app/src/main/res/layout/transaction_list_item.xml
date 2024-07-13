@@ -55,6 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="MUTARAMA"
+            android:textSize="23sp"
             android:textColor="#0d2465"
             android:textStyle="bold"
 
