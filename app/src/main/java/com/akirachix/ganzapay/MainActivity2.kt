@@ -17,7 +17,7 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.ivBack.setOnClickListener {
-            finish()
+//            finish()
         }
 
         binding.ivCameraa.setOnClickListener {
