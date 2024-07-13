@@ -43,25 +43,6 @@
         app:layout_constraintVertical_bias="0.048"
         app:srcCompat="@drawable/menu_svgrepo_com" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -81,10 +62,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-        app:layout_constraintVertical_bias="0.103"
+        app:layout_constraintTop_toBottomOf="@+id/etNum2"
+        app:layout_constraintVertical_bias="0.08"
         app:srcCompat="@drawable/delete_left_svg" />
 
     <ImageView
@@ -93,9 +74,21 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-        app:layout_constraintVertical_bias="0.079"
+        app:layout_constraintTop_toBottomOf="@+id/etNum2"
+        app:layout_constraintVertical_bias="0.053"
         app:srcCompat="@drawable/tick_small_svg" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="336dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Injiza Amafaranga"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

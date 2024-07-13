@@ -40,49 +40,31 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245"
+        app:layout_constraintVertical_bias="0.257"
         app:srcCompat="@drawable/money" />
 
     <ImageView
         android:id="@+id/imageView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/etNum3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView44"
         app:layout_constraintTop_toBottomOf="@+id/ivMenu"
-        app:layout_constraintVertical_bias="0.547"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/receipt" />
 
     <ImageView
         android:id="@+id/imageView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
+        app:layout_constraintBottom_toTopOf="@+id/etNum3"
         app:layout_constraintEnd_toStartOf="@+id/imageView43"
         app:layout_constraintStart_toEndOf="@+id/imageView42"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869"
+        app:layout_constraintVertical_bias="0.8"
         app:srcCompat="@drawable/bluearrow" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView42"
-        app:layout_constraintVertical_bias="0.058">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
         android:id="@+id/imageView45"
@@ -106,4 +88,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.597"
         app:srcCompat="@drawable/tick_small_svg" />
+
+    <EditText
+        android:id="@+id/etNum3"
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Injiza Numero"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -90,29 +90,16 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:hint="hint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
-        app:layout_constraintVertical_bias="0.055"
+        app:layout_constraintTop_toBottomOf="@+id/etNum1"
+        app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/delete_left_svg" />
 
     <ImageView
@@ -121,8 +108,21 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView28"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.782"
         app:layout_constraintStart_toEndOf="@+id/imageView28"
         app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/tick_small_svg" />
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="317dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Injiza Numero"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

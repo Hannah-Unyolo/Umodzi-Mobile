@@ -56,7 +56,7 @@
         app:srcCompat="@drawable/call_pause_svgrepo_com" />
 
     <ImageView
-        android:id="@+id/imageView60"
+        android:id="@+id/ivCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
